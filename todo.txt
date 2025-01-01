@@ -1,0 +1,8 @@
+1. IMPLEMENT PNG LIBRARY
+-FIX ISSUE: Some images imported will be exported distorted (look at the current image for an example)
+
+2. ARDUINO ANIMATIONS BASICS
+
+3. WRITE COMMAND-LINE UI
+
+4. WRITE GUI
