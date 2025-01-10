@@ -33,6 +33,16 @@ struct Pixel{
      * @param a The alpha value. Determines transparency of the image.
      */
     Pixel(unsigned r = 0, unsigned g = 0, unsigned b = 0, unsigned a = 255) : red(r), green(g), blue(b), alpha(a) {};
+
+    /**
+     * Pixel equality operator. Simply determines if all member variables
+     * are equivalent.
+     * @param other The other pixel we are comparing to.
+     * @return true if the Pixels are the same, otherwise false.
+     */
+    bool operator==(Pixel& other){
+        return red == other.red && green == other.green && blue == other.blue && alpha == other.alpha;
+    }
 };
 
 class PNG{
